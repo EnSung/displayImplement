@@ -38,7 +38,10 @@ try{
 		<td> <a href="modify.jsp?id=<%=rs.getString(1) %>"><%= rs.getString(1) %></a></td>
 		<td><%=rs.getString(2) %></td>
 		<td><%=rs.getString(3) %></td>
+		<td><a href="action.jsp?id=<%=rs.getString(1)%>&mode=success">완료</a></td>
+		<td><a href="action.jsp?id=<%=rs.getString(1)%>&mode=modify">수정</a></td>
 		<td><a href="action.jsp?id=<%=rs.getString(1)%>&mode=delete">삭제</a></td>
+		
 		</tr>
 		<%
 	}

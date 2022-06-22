@@ -13,7 +13,7 @@
 <jsp:include page="header.jsp"></jsp:include>
 
 <section style="position:fixed; top:60px;left:0px;width:100%;height:100%;background-color: yellow;left:0">
-<h2 style="text-align:center"><b>교과목 목록 조회/수정</b></h2>
+<h2 style="text-align:center"><b>ToDoList 조회페이지</b></h2>
 <form style="display:flex; align-items:center;justify-content:center">
 <h3>진행 중</h3>
 <table border ="1">
